@@ -13,19 +13,19 @@ class App extends React.Component {
 
     this.showMyLocation = this.showMyLocation.bind(this);
   }
-
+  // Get the information for ipapi
   componentDidMount() {
     fetch("https://ipapi.co/json/")
-      .then(res => res.json())
+      .then((res) => res.json())
       .then(
-        result => {
+        (result) => {
           this.setState({
             isLoaded: true,
             information: result
           });
         },
 
-        error => {
+        (error) => {
           this.setState({
             isLoaded: true,
             error
