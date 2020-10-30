@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+.card {
+  font-family: "Segoe UI", "Roboto";
+   margin: 12vh auto;
+   border-radius: 5px;
+   overflow: hidden;
+   width: 450px;
+   padding: 15px 25px;
+   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card .card-body {
+   display: flex;
+   justify-content: flex-start
+}
+
+.card .country h1 {
+   font-size: 30px;
+   margin: 0;
+}
+
+.card .country h2 {
+   margin: 0;
+   font-size: 15px;
+   color: grey;
+}
+
+.card .info {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 0px;
+   font-weight: lighter;
+   color: #3b3a3a;
+   font-size: 20px;
+}
+
+.card .info span {
+   border-bottom: 1px solid #cbcbcb;
+}
+
+.card .ip-info {
+   background-color: #f8f9f9;
+   margin: 0px -25px;
+   display: flex;
+   justify-content: space-around;
+   padding: 13px;
+   text-align: center;
+   color: #6e6e6e;
+   border-top: 1px solid #eaeaea;
+}
+
+.card .ip-info h1 {
+   font-weight: lighter;
+   margin: 0;
+   font-size: 15px;
+}
+
+.card .ip-info h2 {
+   margin: 0;
+   font-size: 17px;
+}
+
+.card .button {
+   display: block;
+   background-color: #64bc7f;
+   text-decoration: none;
+   text-align: center;
+   margin: 0px -25px -15px -25px;
+   line-height: 60px;
+   color: #fff;
+   font-weight: bold;
+   cursor: pointer;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+.card .randomizeButton:hover {
+   background-color: #57aa70;
+}
+
+.hide{
+  display: none;
+}
